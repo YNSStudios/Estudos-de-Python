@@ -20,16 +20,16 @@ while True:
         sorteio = random.choice(lista_de_alunos)
 
         while True:
-            if entrada in ['1',  'Mostrar todos os alunos',  'mostrar todos os alunos', 'Mostrar',  'mostrar']:
+            if entrada.capitalize() in ['1',  'Mostrar todos os alunos', 'mostrar']:
                         for i in range(fixo):
                             print(lista_de_alunos)
                         break
             
-            elif entrada in ['2',  'Sortear um aluno',  'sortear um aluno',  'Sortear',  'sortear'] :
+            elif entrada.capitalize() in ['2',  'Sortear um aluno', 'sortear'] :
                 print(f'O aluno escolhido foi: {sorteio}. ')
                 break
     
-            elif entrada in ['3', 'Encerrar', 'encerrar'] :
+            elif entrada.capitalize() in ['3', 'Encerrar'] :
                 print('Cadastro encerrado com sucesso !')
                 break
     
