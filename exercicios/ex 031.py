@@ -5,7 +5,8 @@ destinos = {
     'salvador': 150
 }
 
-cidade = input('Para onde você quer ir? (Porto Seguro, Canavieiras, Ilhéus, Salvador): ').strip()
+print('Porto Seguro, Canavieiras, Ilhéus, Salvador.')
+cidade = input('Para onde você quer ir: ').strip()
 escolha = cidade.lower()
 if escolha in destinos:
     distancia = destinos[escolha]

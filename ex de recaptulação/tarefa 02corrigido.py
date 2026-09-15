@@ -13,5 +13,6 @@ if tipo in 'gasolina álcool alcool':
         valor = litros * alcool
         
     print(f'O total a pagar é: \033[0;32mR${valor:.2f}\033[0mR$')
+    
 else:
     print('\033[1;31mOpção inválida! Escolha apenas Gasolina ou Álcool.\033[0m')
